@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.shadow{
+    box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.444);
+}
+*{
+    font-family: 'ABeeZee', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.chat{
+    -ms-overflow-style:inherit;  /* Internet Explorer 10+ */
+    scrollbar-width:inherit; 
+}
+.chat::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+textarea:focus, input:focus{
+    outline: none;
+}
